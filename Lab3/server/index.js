@@ -2,7 +2,7 @@ var app = require('express')();
 var http = require('http').createServer(app);
 var io = require('socket.io')(http,{
     cors: {
-        origin: "http://localhost:63342",
+        origin: "http://54.237.83.43:63342",
         methods: ["GET", "POST"]
     }
 });
